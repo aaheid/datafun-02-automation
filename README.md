@@ -1,6 +1,6 @@
 # datafun-02-automation
 
-[![Workflow Guide](https://img.shields.io/badge/Pro--Guide-pro--analytics--02-green)](https://denisecase.github.io/pro-analytics-02/workflow-b-apply-example-project/)
+[![Workflow Guide](https://img.shields.io/badge/Pro--Guide-pro--analytics--02-green)](https://aaheid.github.io/pro-analytics-02/workflow-b-apply-example-project/)
 [![Python 3.14](https://img.shields.io/badge/python-3.14%2B-blue?logo=python)](./pyproject.toml)
 [![MIT](https://img.shields.io/badge/license-see%20LICENSE-yellow.svg)](./LICENSE)
 
@@ -43,7 +43,7 @@ You'll work with just these areas:
 ## Instructions
 
 Follow the
-[step-by-step workflow guide](https://denisecase.github.io/pro-analytics-02/workflow-b-apply-example-project/)
+[step-by-step workflow guide](https://aaheid.github.io/pro-analytics-02/workflow-b-apply-example-project/)
 to complete:
 
 1. Phase 1. **Start & Run**
@@ -114,7 +114,7 @@ git add -A
 uvx pre-commit run --all-files
 
 # run the module
-uv run python -m datafun.app_case
+uv run python -m datafun.app_aaheid
 
 # do chores
 uv run ruff format .
@@ -193,3 +193,20 @@ Press `Ctrl+c` (both keys together) or `Ctrl+Z` then `Enter` on Windows.
 ```
 
 ![VS Code When Running](./docs/images/vscode_when_running.png)
+## Modifications
+
+I created a modified version of the example application in `app_alecia.py`.
+
+Changes made:
+- Added additional logging statements
+- Added summary output for processed data
+- Improved readability of printed results
+
+Why I made these changes:
+- To better understand how the automation workflow operates
+- To make the program output easier to follow during execution
+
+What I observed:
+- The project ran successfully after the modifications
+- The added logging made it easier to track program execution
+- The new summaries provided clearer output information
