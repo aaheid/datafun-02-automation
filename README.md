@@ -193,6 +193,7 @@ Press `Ctrl+c` (both keys together) or `Ctrl+Z` then `Enter` on Windows.
 ```
 
 ![VS Code When Running](./docs/images/vscode_when_running.png)
+<<<<<<< HEAD
 ## Modifications
 
 I created a modified version of the example application in `app_alecia.py`.
@@ -210,3 +211,46 @@ What I observed:
 - The project ran successfully after the modifications
 - The added logging made it easier to track program execution
 - The new summaries provided clearer output information
+=======
+# datafun-02-automation
+
+## Project Setup
+
+Opened the repository in VS Code using:
+
+```powershell
+code .
+Created the project environment:
+
+uv self update
+uv python pin 3.14
+uv sync --extra dev --extra docs --upgrade
+Installed pre-commit hooks:
+
+uvx pre-commit install
+git add -A
+uvx pre-commit run --all-files
+Running the Project
+
+Run the application as a module:
+
+uv run python -m datafun.app_case
+
+Alternative script command:
+
+uv run python src/datafun/app_case.py
+Ruff Commands
+uv run ruff format .
+uv run ruff check . --fix
+Documentation Commands
+
+Build documentation:
+
+uv run python -m zensical build
+
+Serve documentation locally:
+
+uv run python -m zensical serve
+
+That satisfies the requirement to “record your process and project commands.”
+>>>>>>> 8dcb50b0024860de0e988e26ab46a9a60709e4e4
