@@ -1,6 +1,7 @@
-"""src/datafun/app_case.py - Project script (example).
+"""src/datafun/app_alecia.py - Project script (example).
 
-Author: Denise Case
+Author: Alecia Heiderscheit
+Works Cited:  Denise Case, "src/datafun/app_case.py" (2026-04)
 Date: 2026-04
 
   Practice key Python skills related to:

@@ -254,3 +254,30 @@ uv run python -m zensical serve
 
 That satisfies the requirement to “record your process and project commands.”
 >>>>>>> 8dcb50b0024860de0e988e26ab46a9a60709e4e4
+## Project Summary
+
+This project applies the starter automation example to my own modified version of the program.
+
+## My Files
+
+- `src/datafun/app_alecia.py`
+
+## My Modification
+
+I added clearer logging and improved output summaries.
+
+## What I Observed
+
+The project ran successfully, and the output was easier to follow.
+
+## How to Run
+
+```powershell
+uv run python src/datafun/app_alecia.py
+
+Then commit and push:
+
+```powershell
+git add -A
+git commit -m "Finalized project documentation and metadata"
+git push
